@@ -42,7 +42,7 @@ export default function Home() {
                 <figure className="mx-auto mt-16 mb-12 w-full max-w-6xl px-6">
                     <div className="relative aspect-video w-full overflow-hidden bg-stone-200">
                         <Image
-                            src="/images/anas.jxl"
+                            src="/images/anas.jpg"
                             alt="Anas Al-Sharif reporting from Gaza"
                             fill
                             className="object-cover"
