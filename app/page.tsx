@@ -226,9 +226,9 @@ export default function Home() {
                         families studying to inherit it, and an audience that
                         knows Gaza only through witnesses. Now, that authority
                         is being revoked by institutional power. When a
-                        journalist is relabeled as a soldier, the witnessing is
-                        denied, threatening not only the journalist but a world
-                        that depends on witnesses to know what is true.
+                        journalist is relabeled as a soldier, their witnessing
+                        is denied, threatening not only the journalist but the
+                        people that depend on witnesses to know what is true.
                     </p>
                 </section>
 
@@ -324,6 +324,21 @@ export default function Home() {
                         journalists. She serves as a powerful example of what it
                         means to be a journalist in Gaza, and laid the
                         foundation for a fight against dehumanizing language.
+                        Empirical work has since confirmed what she was naming:
+                        a{" "}
+                        <a
+                            href="https://journals.sagepub.com/doi/10.1177/10776990241287155"
+                            className="underline"
+                        >
+                            2024 content analysis
+                        </a>{" "}
+                        of how the largest Western broadcasters, BBC, CNN, Fox
+                        News, Sky News, MSNBC, covered the war on Instagram
+                        found that all five consistently favored Israeli sources
+                        over Palestinian ones, foregrounded Israeli victims
+                        while obscuring Palestinian ones, and framed Israeli
+                        violence as self-defense while framing Palestinian
+                        violence as aggression.
                     </p>
                 </section>
 
@@ -451,13 +466,9 @@ export default function Home() {
                     </div>
                     <div className="mt-3 flex gap-[6px] font-sans text-[10px] tracking-wider text-stone-500 uppercase">
                         {DEATHS_BY_MONTH.map(([month], i) => {
-                            const showYear =
-                                month.endsWith("-01") || i === 0;
+                            const showYear = month.endsWith("-01") || i === 0;
                             return (
-                                <div
-                                    key={month}
-                                    className="relative w-1.5"
-                                >
+                                <div key={month} className="relative w-1.5">
                                     {showYear && (
                                         <span className="absolute top-0 left-0 whitespace-nowrap">
                                             {month.slice(0, 4)}
