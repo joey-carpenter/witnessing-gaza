@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2021-12-15T01:17:02.437603
+description,Description,"A weekly dataset providing the total number of reported political violence events and fatalities in Palestine broken down by month. Political violence events include ACLED’s battles, violence against civilians, and explosions/remote violence event types, as well as the mob violence sub-event type of the riots event type."
+format,File Format,XLSX
+download_url,Download URL,https://data.humdata.org/dataset/a01fb41d-b89c-4de0-abbd-b5046695d448/resource/8f383970-b41a-414a-a70e-fd9d2b7b8ba1/download/palestine_hrp_political_violence_events_and_fatalities_by_month-year_as-of-28may2026.xlsx
+id,Resource ID,8f383970-b41a-414a-a70e-fd9d2b7b8ba1
+last_modified,Updated,2026-05-28T10:48:40.459874
+metadata_modified,Metadata Updated,2026-05-28T10:48:46.878327
+microdata,Microdata,False
+dataset_id,Dataset ID,a01fb41d-b89c-4de0-abbd-b5046695d448
+resource_type,Resource Type,file.upload
+name,Resource Name,palestine_HRP_political_violence_events_and_fatalities_by_month-year
+mimetype,MIME Type,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+size,Size,87.1K
