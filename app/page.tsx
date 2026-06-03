@@ -233,11 +233,11 @@ export default function Home() {
                 </section>
 
                 {/* Part I — Plestia */}
-                <div className="mt-16 mb-8 w-full max-w-3xl px-6">
-                    <p className="font-sans text-xs tracking-[0.3em] text-stone-500 uppercase">
+                <div className="mt-16 mb-8 flex w-full max-w-3xl flex-col items-start gap-8 px-6 font-serif">
+                    <p className="font-serif text-sm tracking-wider text-stone-500">
                         Part I
                     </p>
-                    <h2 className="mt-2 font-sans text-4xl leading-tight font-bold tracking-tight md:text-5xl">
+                    <h2 className="font-serif text-xl leading-[1.05] font-bold tracking-tight md:text-xl">
                         Plestia
                     </h2>
                 </div>
@@ -377,11 +377,11 @@ export default function Home() {
                 </section>
 
                 {/* Part II — Hossam */}
-                <div className="mt-16 mb-8 w-full max-w-3xl px-6">
-                    <p className="font-sans text-xs tracking-[0.3em] text-stone-500 uppercase">
+                <div className="mt-16 mb-8 flex w-full max-w-3xl flex-col items-start gap-8 px-6 font-serif">
+                    <p className="font-serif text-sm tracking-wider text-stone-500">
                         Part II
                     </p>
-                    <h2 className="mt-2 font-sans text-4xl leading-tight font-bold tracking-tight md:text-5xl">
+                    <h2 className="font-serif text-xl leading-[1.05] font-bold tracking-tight md:text-xl">
                         Hossam
                     </h2>
                 </div>
@@ -620,11 +620,11 @@ export default function Home() {
                 </section>
 
                 {/* Part III — Anas */}
-                <div className="mt-16 mb-8 w-full max-w-3xl px-6">
-                    <p className="font-sans text-xs tracking-[0.3em] text-stone-500 uppercase">
+                <div className="mt-16 mb-8 flex w-full max-w-3xl flex-col items-start gap-8 px-6 font-serif">
+                    <p className="font-serif text-sm tracking-wider text-stone-500">
                         Part III
                     </p>
-                    <h2 className="mt-2 font-sans text-4xl leading-tight font-bold tracking-tight md:text-5xl">
+                    <h2 className="font-serif text-xl leading-[1.05] font-bold tracking-tight md:text-xl">
                         Anas
                     </h2>
                 </div>
